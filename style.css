@@ -1,0 +1,111 @@
+button {
+  width: 100px;
+  height: 42px;
+  border: none;
+  padding: 14px 32px;
+  color: white;
+  background-color: #00CC66;
+  border-radius: 4px;
+  outline: none;
+  padding: 12px 24px;
+}
+
+button:hover {
+  background-color: #fb4b4e;
+}
+
+body {
+  background-color: #F7F7F7;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 8px 360px;
+  z-index: 10;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: #222121;
+  height: 2rem;
+}
+
+.navbar .navbar-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 24px;
+}
+
+.navbar .navbar-menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.navbar .navbar-menu ul li {
+  padding: 0 1rem;
+}
+
+.main {
+  max-width: 1200px;
+  margin: 3rem 20rem;
+  padding: 0 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.main .main-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .main-left h1 {
+  color: #00CC66;
+  font-size: 64px;
+  margin: 0.5rem 0;
+}
+
+.main .main-left h2 {
+  color: #222121;
+  font-size: 64px;
+  margin: 0.5rem 0;
+}
+
+.main .main-left p {
+  color: #222121;
+  font-size: 2rem;
+  margin: 0.5rem 0;
+}
+
+.main img {
+  width: 36rem;
+}
+/*# sourceMappingURL=style.css.map */

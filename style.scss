@@ -1,0 +1,67 @@
+@import "btn";
+@import "variables";
+body{
+    background-color: $bgroundColor;
+    font-family: $fontFamily;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 8px 360px;
+    z-index: 10;
+
+    
+    a{
+        text-decoration: none;
+        font-size: 2rem;
+        color: #222121;
+        height: 2rem;
+    }
+    .navbar-menu{
+        display: flex;
+        margin-right: 24px;
+        ul{
+            display: flex;
+            list-style: none;
+            li{
+                padding: 0 1rem;
+            }
+        }
+    }
+}
+.main{
+
+    max-width: 1200px;
+    margin: 3rem 20rem;
+    padding: 0 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    .main-left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h1{
+            color: $btnColor;
+            font-size: 64px;
+              margin: 0.5rem 0;
+
+        }
+        h2{
+            color: #222121;
+            font-size: 64px;
+             margin: 0.5rem 0;
+
+        }
+        p{
+           color: #222121;
+           font-size: 2rem; 
+        margin: 0.5rem 0;
+
+        }
+    }
+    img{
+        width: 36rem;
+    }
+}
